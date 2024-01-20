@@ -65,22 +65,25 @@ Casbin也曾经在国际上进行多次线下宣讲：
 下列所有项目都与Casbin一致，采用开源协议：[Apache 2.0 license](LICENSE)
 
 - [Casbin核心引擎（Golang）](#casbin核心引擎golang)
-- [Casbin开源社区运营](#casbin开源社区运营)
-- [Casbin文档中文翻译 + 官网优化](#casbin文档中文翻译--官网优化)
-- [Casdoor身份认证系统（前端React + Javascript，后端Golang）](#casdoor身份认证系统前端react--javascript后端golang)
-- [Casbin官方核心论坛（前端React + Javascript，后端Golang）](#casbin官方核心论坛前端react--javascript后端golang)
-- [Casbin官方会议投稿系统（前端React + Javascript，后端Golang）](#casbin官方会议投稿系统前端react--javascript后端golang)
-- [Casbin官方OA系统（前端React + Javascript，后端Golang）](#casbin官方oa系统前端react--javascript后端golang)
+- [Casdoor单点登录系统（前端React，后端Golang）](#casdoor单点登录系统前端react后端golang)
+- [Casibase开源AI知识库系统（前端React，后端Golang）](#casibase开源ai知识库系统前端react后端golang)
+- [Casvisor开源堡垒机 + 日志审计系统（前端React，后端Golang）](#casvisor开源堡垒机--日志审计系统前端react后端golang)
+- [Casnode社区论坛系统（前端React，后端Golang）](#casnode社区论坛系统前端react后端golang)
+- [开源社区文档系统Docusaurus优化（前端React）](#开源社区文档系统docusaurus优化前端react)
 - [jCasbin 生态完善（Java）](#jcasbin-生态完善java)
+- [PyCasbin 生态完善（Python）](#pycasbin-生态完善python)
+- [Node-Casbin 生态完善（Node.js）](#node-casbin-生态完善nodejs)
+- [Casbin.NET 生态完善（.NET, C#）](#casbinnet-生态完善net-csharp)
+- [Casbin-RS 生态完善（Rust）](#casbin-rs-生态完善rust)
 - [PHP-Casbin 生态完善（PHP）](#php-casbin-生态完善php)
 - [SwiftCasbin 开发（Swift）](#swiftcasbin-开发swift)
-- [Casbin Web前端UI设计开发（React + Javascript）](#casbin-web前端ui设计开发react--javascript)
+- [Casbin开源社区运营（非技术类）](#casbin开源社区运营非技术类)
 
 ### Casbin核心引擎（Golang）
 
 1. 项目标题：Casbin核心引擎（Golang）
 2. 项目描述：Casbin采用独特的PERM模型语法（model）来实现强大、灵活的访问控制。Casbin Golang版本作为Casbin的第一个语言实现，拥有最多的用户以及最先进的feature。我们希望在Casbin Golang上：1）增强Casbin语法的表达能力，满足用户多样化的策略制定需求；2）优化Casbin在大规模规则集上（百万以上）的策略评估性能。这两个目标是Casbin的核心竞争力，对于其他Casbin语言的实现也会起到非常重要的借鉴意义。
-3. 项目难度：高
+3. 项目难度：中
 4. 项目社区导师：[王达 (nomeguy)](https://github.com/nomeguy)
 5. 导师联系方式：nomeguy (AT) gmail.com
 6. 合作导师联系方式（选填）：无
@@ -95,53 +98,11 @@ Casbin也曾经在国际上进行多次线下宣讲：
    - https://github.com/casbin/casbin
    - https://github.com/casbin
 
-### Casbin开源社区运营
+### Casdoor单点登录系统（前端React，后端Golang）
 
-1. 项目标题：Casbin开源社区运营
-2. 项目描述：负责Casbin社区推广、运营、活动管理等事务，协助社区负责人参与社区的新成员招募、文案推广（官方博客维护、微信公众号维护）、对外合作等任务。
-3. 项目难度：高
-4. 项目社区导师：[王达 (nomeguy)](https://github.com/nomeguy)
-5. 导师联系方式：nomeguy@gmail.com
-6. 合作导师联系方式（选填）：无
-7. 项目产出要求：
-   - 负责日常招募新的开源开发者参与社区的各项活动，如Google Summer of Code，暑期编程之夏、明日之星等等，在活动期间对参与者进行管理
-   - 参与对接本社区与其他厂商、开源社区的商务合作，推进合作进度
-   - 撰写社区的技术、推广、合作等文案，维护、贡献社区官方博客（https://casbin.org/blog/ ）、微信公众号等社交媒体账号
-8. 项目技术要求：
-   - 热爱开源，对技术有一定了解，同时具有技术与推广、运营双重背景的优先
-   - 沟通能力良好，理解力强，有出色的组织、协调能力
-   - 有能力撰写社区的技术、推广、合作等文案
-9. 相关的开源软件仓库列表：
-   - https://github.com/casbin/casbin-website
-   - https://casbin.org/blog/
-
-### Casbin文档中文翻译 + 官网优化
-
-1. 项目标题：Casbin文档中文翻译 + 官网优化
-2. 项目描述：Casbin官网（https://casbin.org/ ）基于开源文档工具[Docusaurus](https://docusaurus.io/ )构建（基于React），采用Docusaurus所集成的[CrowdIn](https://crowdin.com/project/casbin )在线翻译平台进行众包翻译。Casbin官网原始文档均为英文，由CrowdIn上的贡献者自愿将英文翻译为其他各语言（如中文，韩文等）。但是目前各语言的翻译率较低，中文翻译率目前仅有15%，不利于开源项目在国内推广。因此希望能够将中文翻译率提高到100%。并且，目前社区文档内容不够齐全，可读性较差，需要添加新文档内容、改进现有文档内容。
-3. 项目难度：高
-4. 项目社区导师：[王达 (nomeguy)](https://github.com/nomeguy)
-5. 导师联系方式：nomeguy@gmail.com
-6. 合作导师联系方式（选填）：无
-7. 项目产出要求：
-   - 在CrowdIn翻译平台将Casbin官网英文内容翻译为中文，进度翻译至100%
-   - 针对文档内容的不足，撰写、添加新的文档内容（英文），优化内容排版，优化文档目录结构，提升文档可读性、可理解性
-   - 改进官网功能（如在线演示、评论功能等）、美化官网UI效果
-   - 解决Casbin-website主仓库&相关仓库中的issues：https://github.com/casbin/casbin-website/issues
-8. 项目技术要求：
-   - 热爱并有能力撰写技术博客、文章
-   - 了解React框架和NPM包管理
-   - 了解Git、GitHub相关操作
-   - 了解Casbin的工作原理
-9. 相关的开源软件仓库列表：
-   - https://github.com/casbin/casbin-website
-   - https://github.com/casbin/casbin.github.io
-
-### Casdoor身份认证系统（前端React + Javascript，后端Golang）
-
-1. 项目标题：Casdoor身份认证系统（前端React + Javascript，后端Golang）
+1. 项目标题：Casdoor身份认证系统（前端React，后端Golang）
 2. 项目描述：Casdoor是一套基于基于OAuth 2.0 / OIDC协议的统一身份认证（单点登录）系统。其支持多种第三方登录方式，如QQ、微信、Google, GitHub等。Casdoor具有Web管理界面，可以用来管理用户、角色、权限（基于Casbin）
-3. 项目难度：高
+3. 项目难度：中
 4. 项目社区导师：[王达 (nomeguy)](https://github.com/nomeguy)
 5. 导师联系方式：nomeguy (AT) gmail.com
 6. 合作导师联系方式（选填）：无
@@ -158,11 +119,68 @@ Casbin也曾经在国际上进行多次线下宣讲：
    - https://github.com/casbin/casdoor
    - https://github.com/casdoor
 
-### Casnode官方核心论坛（前端React + Javascript，后端Golang）
+### Casibase开源AI知识库系统（前端React，后端Golang）
 
-1. 项目标题：Casnode官方核心论坛（前端React + Javascript，后端Golang）
+1. 项目标题：Casibase开源AI知识库系统（前端React，后端Golang）
+2. 项目描述：Casibase 是一个开源的企业级 AI 知识库系统，旨在将 AI 助手整合到企业内部文档知识中。其主要特性包括：
+   - 支持多种AI模型，如 ChatGPT、Azure OpenAI、HuggingFace 等。
+   - 提供多种 Embedding 嵌入 API 接口。
+   - 支持多种文档格式，包括 txt, markdown, docx, pdf 等，并支持 PDF 文件智能解析。
+   - AI 小助手可嵌入应用网站，支持在线实时聊天和人工接入。
+   - 支持多用户、多租户，包括企业级单点登录。
+   - 聊天会话日志管理，方便审计和计费。
+   - 界面支持中文、英文等多语种。
+3. 项目难度：中
+4. 项目社区导师：[王达 (nomeguy)](https://github.com/nomeguy)
+5. 导师联系方式：nomeguy (AT) gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 添加新的GPT模型支持
+   - 添加多模态（图片）模型支持
+   - 优化、美化Web界面
+   - 解决 Casibase 主仓库及相关仓库中的 issues：https://github.com/casibase/casibase/issues
+8. 项目技术要求：
+   - 感兴趣或熟悉ChatGPT等大模型技术
+   - 熟悉React、Javascript语言（前端）
+   - 熟悉Golang语言（后端）
+   - 熟悉Git、GitHub相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casibase/casibase
+   - https://casibase.org
+
+### Casvisor开源堡垒机 + 日志审计系统（前端React，后端Golang）
+
+1. 项目标题：Casvisor开源堡垒机 + 日志审计系统（前端React，后端Golang）
+2. 项目描述：Casvisor 是一款开源的堡垒机和日志审计系统，专注于实时监控和分析系统指标、用户行为，以及与 Casbin 授权和 Casdoor 身份认证相关的事件。其主要特点包括：
+   - 支持多种远程登录协议，如 RDP、VNC、SSH 等。
+   - 图形化管理 MySQL、Oracle 等多种数据库。
+   - 远程桌面支持内网穿透。
+   - 支持多用户、多租户，集成 Casdoor 单点登录。
+   - 所有操作均记录在审计日志中，方便管理和审计。
+   - 用户界面支持中文、英文等多国语言。
+3. 项目难度：中
+4. 项目社区导师：[王达 (nomeguy)](https://github.com/nomeguy)
+5. 导师联系方式：nomeguy (AT) gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 实现对Windows、Linux主机的远程桌面支持，包括RDP、VNC等
+   - 实现对Windows、Linux主机的健康监控，如CPU、内存、磁盘占用率等
+   - 优化日志存储、查询等功能，可对接ElasticSearch, OpenSearch等
+   - 支持 Casbin 权限管理
+   - 解决 Casvisor 主仓库及相关仓库中的 issues：https://github.com/casbin/casvisor/issues
+8. 项目技术要求：
+   - 熟悉React、Javascript语言（前端）
+   - 熟悉Golang语言（后端）
+   - 熟悉Git、GitHub相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casvisor
+   - https://casvisor.org
+
+### Casnode社区论坛系统（前端React，后端Golang）
+
+1. 项目标题：Casnode社区论坛系统（前端React，后端Golang）
 2. 项目描述：Casbin社区目前采用QQ群（中文），Gitter（英文）进行社区交流，交流渠道比较有限。我们打算开发一个同时面向Casbin开发者和用户的官方论坛：Casnode（https://github.com/casbin/casnode ），风格与[V2EX](https://v2ex.com/)类似。该论坛开源，因此也欢迎其他开源社区使用。
-3. 项目难度：高
+3. 项目难度：中
 4. 项目社区导师：[张军洁 (kocoler)](https://github.com/kocoler)
 5. 导师联系方式：tsglsdrs (AT) 163.com
 6. 合作导师联系方式（选填）：无
@@ -176,50 +194,29 @@ Casbin也曾经在国际上进行多次线下宣讲：
    - 熟悉Git、GitHub相关操作
 9. 相关的开源软件仓库列表：
    - https://github.com/casbin/casnode
-   - https://github.com/casbin/casbin
 
-### Confita官方会议投稿系统（前端React + Javascript，后端Golang）
+### 开源社区文档系统Docusaurus优化（前端React）
 
-1. 项目标题：Confita官方会议投稿系统（前端React + Javascript，后端Golang）
-2. 项目描述：Casbin社区目前采用Docusaurus静态页面作为官网（ https://github.com/casbin/casbin-website-v2 ），通过git commit更新文档内容，文档、稿件处理渠道比较有限。我们打算开发一个同时面向Casbin技术写作者（technical writer）的官方稿件处理、评审、展示系统：Confita（https://github.com/casbin/confita ）。该投稿系统的另一个功能是全方位展示Casbin访问控制的功能，后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理，前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示。该论坛会成为Casbin技术最强有力的展示。该项目开源，因此也欢迎其他开源社区使用。
-3. 项目难度：高
-4. 项目社区导师：[王达 (nomeguy)](https://github.com/nomeguy)
-5. 导师联系方式：nomeguy (AT) gmail.com
-6. 合作导师联系方式（选填）：无
-7. 项目产出要求：
-   - 完成一个会议投稿系统，作为Casbin开源社区的官方稿件处理系统
-   - 后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理
-   - 前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示（[casbin.js](https://github.com/casbin/casbin.js)目前还在开发中，如果casbin.js未开发完毕则此要求作废，可自行实现前端页面访问控制）
-   - 解决Confita相关仓库中的issues：https://github.com/casbin/confita/issues
-8. 项目技术要求：
-   - 熟悉React、Javascript语言（前端）
-   - 熟悉Golang语言（后端）
-   - 熟悉Git、GitHub相关操作
-9. 相关的开源软件仓库列表：
-   - https://github.com/casbin/confita
-   - https://github.com/casbin/casbin
-
-### Casbin-OA官方OA系统（前端React + Javascript，后端Golang）
-
-1. 项目标题：Casbin官方OA系统（前端React + Javascript，后端Golang）
-2. 项目描述：随着Casbin开源社区的发展，社区成员越来越多，开源社区的管理成为一个重要问题。Casbin社区目前已经开发了OA系统的基础版本（https://github.com/casbin/casbin-oa ），作为社区成员的管理平台。目前该OA系统仍然是通过成员自行填写周报，来进行统计。未来我们希望通过GitHub API，自动化地填写周报模板，减轻使用者的负担。另外，我们也希望实现自动化的GitHub Issue Triage，即把GitHub issue自动分类、打标签（bug, feature还是question)，甚至实现社区机器人自动AT相关repo的负责成员等功能。这个项目首先Casbin社区自身会使用，同时也欢迎其他开源社区使用，提高社区管理的智能化水平。
+1. 项目标题：开源社区文档系统Docusaurus优化（前端React）
+2. 项目描述：Casbin官网（https://casbin.org/ ）基于开源文档工具[Docusaurus](https://docusaurus.io/ )构建（基于React），采用Docusaurus所集成的[CrowdIn](https://crowdin.com/project/casbin )在线翻译平台进行众包翻译。Casbin官网原始文档均为英文，由CrowdIn上的贡献者自愿将英文翻译为其他各语言（如中文，韩文等）。但是目前各语言的翻译率较低，中文翻译率目前仅有15%，不利于开源项目在国内推广。因此希望能够将中文翻译率提高到100%。并且，目前社区文档内容不够齐全，可读性较差，需要添加新文档内容、改进现有文档内容。
 3. 项目难度：中
 4. 项目社区导师：[王达 (nomeguy)](https://github.com/nomeguy)
-5. 导师联系方式：nomeguy (AT) gmail.com
+5. 导师联系方式：nomeguy@gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
-   - 通过GitHub API，自动化地填写周报模板，减轻使用者的负担
-   - 实现自动化的GitHub Issue Triage，即把GitHub issue自动分类、打标签（bug, feature还是question)，甚至实现社区机器人自动AT相关repo的负责成员等功能
-   - 后台利用[Casbin](https://github.com/casbin/casbin)进行权限管理
-   - 前台利用[casbin.js](https://github.com/casbin/casbin.js)控制UI元素，如按钮的显示（[casbin.js](https://github.com/casbin/casbin.js)目前还在开发中，如果casbin.js未开发完毕则此要求作废，可自行实现前端页面访问控制）
-   - 解决Casbin OA&相关仓库中的issues：https://github.com/casbin/casbin-oa/issues
+   - 通过手工或ChatGPT等自动化方式在CrowdIn翻译平台将社区项目官网英文内容翻译为中文
+   - 优化Docusaurus文档系统配置、内容排版等，提升文档可读性、可理解性
+   - 改进Docusaurus文档系统功能（如在线演示、评论功能等）、美化官网UI效果
+   - 解决Casbin-website主仓库&相关仓库中的issues：https://github.com/casbin/casbin-website-v2/issues
+   - 解决Casdoor-website主仓库&相关仓库中的issues：https://github.com/casbin/casdoor-website/issues
 8. 项目技术要求：
-   - 熟悉React、Javascript语言（前端）
-   - 熟悉Golang语言（后端）
-   - 熟悉Git、GitHub相关操作
+   - 热爱并有能力撰写技术博客、文章
+   - 了解React框架和NPM包管理
+   - 了解Git、GitHub相关操作
+   - 了解Casbin的工作原理
 9. 相关的开源软件仓库列表：
-   - https://github.com/casbin/casbin-oa
-   - https://github.com/casbin/casbin
+   - https://github.com/casbin/casbin-website
+   - https://github.com/casbin/casbin.github.io
 
 ### jCasbin 生态完善（Java）
 
@@ -242,11 +239,92 @@ Casbin也曾经在国际上进行多次线下宣讲：
    - https://github.com/casbin/jcasbin
    - https://github.com/jcasbin
 
+### PyCasbin 生态完善（Python）
+
+1. 项目标题：PyCasbin 生态完善（Python）
+2. 项目描述：Casbin 是一个强大的、高效的开源访问控制框架，对主流语言都有相关实现，包括 Python 版本的 Casbin（PyCasbin）。目前，虽然 PyCasbin 主库的主要功能相对完善和稳定，但仍然需要不断迭代演进，特别是在 Python 生态内各种框架、插件的集成，代码质量和性能还有调优的可能。项目目的是对主库及其周边生态系统进行完善和优化，以增强 Casbin 在 Python 领域的应用场景，提高外部系统接入 Casbin 的效率和成本，扩大 Casbin 在 Python 领域的生态圈。
+3. 项目难度：中
+4. 项目社区导师：[李强 (techoner)](https://github.com/leeqvip)
+5. 导师联系方式：techqiang (AT) gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 实现在分布式系统中使用 RabbitMQ 做策略同步的监视器 rabbitmq-watcher。
+   - 对现有 Watcher 实现和完善 WatcherEx 接口。
+   - 引入 Casbin 核心引擎 Casbin Core Engine (Golang) 中的新功能。
+   - 对主流框架的支持增强，例如：在 Python 的 Django 扩展中引入 Django Caching，集成 Django 认证系统。
+   - 解决 PyCasbin 主库以及相关仓库中的 issues：https://github.com/casbin/pcasbin/issues
+8. 项目技术要求：
+   - 熟悉Python语言
+   - 熟悉Git、GitHub相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/pycasbin
+   - https://github.com/pycasbin
+
+### Node-Casbin 生态完善（Node.js）
+
+1. 项目标题：Node-Casbin 生态完善（Node.js）
+2. 项目描述：Node-Casbin 和 Casbin.js 是基于 PERM 模型语法的访问控制库，适用于 Web、Node.js、Electron 等 JavaScript 平台。本项目的目标是加速 Node-Casbin 和 Casbin.js 在 Web 和 Node.js 平台上的插件生态系统建设。具体目标包括为 Angular、React、Vue 等主流框架提供 Starter 插件，帮助开发者快速集成 Node-Casbin 和 Casbin.js，同时维护并优化现有的 Node.js 平台的 Adapter、Watcher 和 Starter 插件。
+3. 项目难度：中
+4. 项目社区导师：[刘子轩 (nodece)](https://github.com/nodece)
+5. 导师联系方式：nodeces (AT) gmail.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 解决 Node-Casbin 主仓库的 issues：https://github.com/casbin/node-casbin/issues
+   - 解决 Casbin.js 主仓库的 issues：https://github.com/casbin/casbin.js/issues
+   - 维护现有的 Adapter、Watcher 和 Starter 插件，并提供相关文档和索引，方便用户使用。
+8. 项目技术要求：
+   - 熟悉 Node.js, JavaScript 语言
+   - 熟悉前端 JS，如：Angular, React, Vue等。
+   - 熟悉 Git、GitHub 相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/node-casbin
+   - https://github.com/casbin/casbin.js
+   - https://github.com/node-casbin
+
+### Casbin.NET 生态完善（.NET, C#）
+
+1. 项目标题：Casbin.NET 生态完善（.NET, C#）
+2. 项目描述：Casbin.NET 是 Casbin 的 .NET 实现，采用独特的 PERM 模型语法来实现强大、灵活的访问控制。该项目的目标是跟进 Casbin Golang 版本的最新功能，将其移植到 .NET 版本，并维护 .NET 特有的生态系统
+3. 项目难度：中
+4. 项目社区导师：[汤贤赫 (Sagilio)](https://github.com/sagilio)
+5. 导师联系方式：sagilio (AT) outlook.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 跟踪Casbin-Go最新关键特性与BUG修复，并移植到Casbin.NET
+   - 维护已有项目: https://github.com/casbin-net, 提供更加丰富友好的示例
+   - 尝试为GUI场景（如WinUI/Maui/WPF等）接入Casbin提供友好地支持 [Casbin.Native](https://github.com/casbin-net/casbin-native)
+   - 解决 Casbin.NET 主仓库&相关仓库中的 issues：https://github.com/casbin/Casbin.NET/issues
+8. 项目技术要求：
+   - 熟悉.NET, C#语言
+   - 熟悉Git、GitHub相关操作
+9. 项目成果仓库：
+   - https://github.com/casbin/Casbin.NET
+   - https://github.com/casbin-net
+
+### Casbin-RS 生态完善（Rust）
+
+1. 项目标题：Casbin-RS 生态完善（Rust）
+2. 项目描述：Casbin-RS 是 Casbin 在 Rust 语言中的实现，目前需要对其生态进行完善。本项目的重点是完善 Casbin-RS 生态，包括与 Rust Web 框架的集成，解决现有 issues。
+3. 项目难度：中
+4. 项目社区导师：[刘毅涵 (qianxi0410)](https://github.com/qianxi0410)
+5. 导师联系方式：894871277 (AT) qq.com
+6. 合作导师联系方式（选填）：无
+7. 项目产出要求：
+   - 实现 Casbin-RS 中间件，包括单元/集成测试、文档说明，以及实际应用示例
+   - 根据用户需求，实现缺失的数据库adapter
+   - 解决 Casbin-RS 主仓库&相关仓库中的 issues：https://github.com/casbin/casbin-rs/issues
+8. 项目技术要求：
+   - 熟悉 Rust 语言
+   - 熟悉 Git、GitHub 相关操作
+9. 相关的开源软件仓库列表：
+   - https://github.com/casbin/casbin-rs
+   - https://github.com/casbin-rs
+
 ### PHP-Casbin 生态完善（PHP）
 
 1. 项目标题：PHP-Casbin 生态完善（PHP）
 2. 项目描述：[PHP-Casbin](https://github.com/php-casbin/php-casbin) 是Casbin的PHP版实现，功能和 Casbin（Golang）基本一致。目前，PHP-Casbin已经支持对`Laravel` `ThinkPHP` `Yii` `Codeigniter` `CakePHP` 等主流框架的适配。目前还需要开发对`Symfony`的扩展，C级别的框架进行支持，例如：`Phalcon Framework`，基于Swoole的框架支持，例如： `Hyperf` `easyswoole`等。除此之外，我们也希望Casbin有个PHP的C/C++扩展，以提升性能。
-3. 项目难度：高
+3. 项目难度：中
 4. 项目社区导师：[李强 (techoner)](https://github.com/leeqvip)
 5. 导师联系方式：techqiang (AT) gmail.com
 6. 合作导师联系方式（选填）：无
@@ -267,7 +345,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 
 1. 项目标题：SwiftCasbin 开发（Swift）
 2. 项目描述：开发Swift版本的Casbin，支持iOS App、Swift服务器端应用等生态。
-3. 项目难度：高
+3. 项目难度：中
 4. 项目社区导师：[孟祥文 (cit117)](https://github.com/cit117)
 5. 导师联系方式：cit117 (AT) me.com
 6. 合作导师联系方式（选填）：无
@@ -283,25 +361,25 @@ Casbin也曾经在国际上进行多次线下宣讲：
    - https://github.com/casbin/SwiftCasbin
    - https://github.com/SwiftCasbin
 
-### Casbin Web前端UI设计开发（React + Javascript）
+### Casbin开源社区运营（非技术类）
 
-1. 项目标题：Casbin 前端设计开发（React + Javascript）
-2. 项目描述：目前Casbin社区有多个涉及Web前端的项目，如OA系统、Casnode论坛、Casdoor等。这些系统本身已经有一个功能完整的前端页面，但是UI比较简陋，因此需要较为专业的前端设计+开发实现更好的UI。
+1. 项目标题：Casbin开源社区运营
+2. 项目描述：负责Casbin社区推广、运营、活动管理等事务，协助社区负责人参与社区的新成员招募、文案推广（官方博客维护、微信公众号维护）、对外合作等任务。
 3. 项目难度：中
-4. 项目社区导师：[刘子轩 (nodece)](https://github.com/nodece)
-5. 导师联系方式：nodeces@gmail.com
+4. 项目社区导师：[王达 (nomeguy)](https://github.com/nomeguy)
+5. 导师联系方式：nomeguy@gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
-   - 改进Casbin社区各个项目的Web前端页面的设计，包括提供图片、切图，调整页面元素尺寸、布局，改进交互效果、动画效果等
-   - 在现有的功能完整但UI较为简陋的代码基础上，修改React, Javascript代码，提升UI效果
+   - 负责日常招募新的开源开发者参与社区的各项活动，如Google Summer of Code，暑期编程之夏、明日之星等等，在活动期间对参与者进行管理
+   - 参与对接本社区与其他厂商、开源社区的商务合作，推进合作进度
+   - 撰写社区的技术、推广、合作等文案，维护、贡献社区官方博客（https://casbin.org/blog/ ）、微信公众号等社交媒体账号
 8. 项目技术要求：
-   - 熟悉Web前端设计，包括切图、布局、交互等
-   - 熟悉HTML、CSS，能够编写React + Javascript代码来实现所提出的UI设计
-   - 熟悉 Git、GitHub 相关操作
+   - 热爱开源，对技术有一定了解，同时具有技术与推广、运营双重背景的优先
+   - 沟通能力良好，理解力强，有出色的组织、协调能力
+   - 有能力撰写社区的技术、推广、合作等文案
 9. 相关的开源软件仓库列表：
-   - https://github.com/casbin/casdoor
-   - https://github.com/casbin/casnode
-   - https://github.com/casbin/casbin-oa
+   - https://github.com/casbin/casbin-website
+   - https://casbin.org/blog/
 
 所有可选项目详见：https://github.com/casbin/Talent2024#可选项目列表
 
@@ -332,7 +410,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 
 申请学生需要同时完成以下“联系社区”和“官网投递”两个环节：
 
-### 1. 联系社区（2023年11月1日 - 2024年6月30日）
+### 1. 联系社区（2024年1月1日 - 2024年12月31日）
 
 1. 加入《Casbin访问控制社区群》（QQ大群）：[546057381](https://qm.qq.com/cgi-bin/qm/qr?k=G1a9A8TvsnySygiE0y3RcAll9FEazX-G&jump_from=webapi&authKey=OxuOi/et2Zzw7vuRzQFAnsO9sLJlJonNYtM9BRObV6lJs8nWKfjozA8qNmS4mdbx)
 2. 加入《Casbin明日之星预选生计划-Talent for Casbin 2024-群》（QQ小群）：[540163681](https://qm.qq.com/cgi-bin/qm/qr?k=0Hbu5gOSLXUkENTtGaoG0zMqjyixr4ke&jump_from=webapi&authKey=3l1AOq4ChaGgbj4/cHCPXLk/UzYWJigc02l30lKUJH37Wxu+eZxXyKXx7rNXElZV) ，联系导师，与导师沟通项目细节和方案，完成社区指定的Easy Tasks
@@ -342,6 +420,6 @@ Casbin也曾经在国际上进行多次线下宣讲：
     <img alt="qrcode-talent" src="https://cdn.casbin.com/activity/qrcode-talent.png" width="300"/>
 </div>
 
-### 2. 官网投递（2023年11月1日 - 2024年6月30日）
+### 2. 官网投递（2024年1月1日 - 2024年12月31日）
 
 发送【中文简历PDF】至Casbin社区官方邮箱：admin@casbin.org
