@@ -4,21 +4,21 @@
 
 “Casbin明日之星预选生计划-Talent for Casbin 2025”（以下简称 Talent 2025）是由Casbin开源社区举办的一项面向高校学生的编程活动，旨在鼓励在校学生积极参与Casbin社区旗下开源软件的开发维护，促进国内优秀开源软件的蓬勃发展。
 
-2020年，Casbin以开源社区的身份首次参加了由Google公司主办的[Google Summer of Code 2020](https://summerofcode.withgoogle.com/archive/2020/organizations/6587176113930240/) 和由中科院软件所、OpenEuler社区主办的[开源软件供应链点亮计划-暑期2020](https://summer-ospp.ac.cn/2020/) 。在上述活动中，Casbin社区共派出7位来自国内外（中国、法国等）互联网一线的资深社区导师，共培养、指导了国内外15名学生（14位中国同学、1位印度同学）进行为期3个月的开源编程活动。Casbin项目已毕业的同学，有的成长为Casbin项目核心维护者、以开源大牛的身份活跃于GitHub，有的毕业后全职加入腾讯微信事业部等互联网头部公司，有的凭借在Casbin社区的出色经历拿到全球顶级投行Morgan Stanley（摩根士丹利）的offer，在工业界和学术界发挥着重要作用。
+2020年，Casbin以开源社区的身份首次参加了由Google公司主办的[Google Summer of Code 2020](https://summerofcode.withgoogle.com/archive/2020/organizations/6587176113930240/) 和由中科院软件所、OpenEuler社区主办的[开源软件供应链点亮计划-开源之夏2020](https://summer-ospp.ac.cn/2020/) 。在上述活动中，Casbin社区共派出7位来自国内外（中国、法国等）互联网一线的资深社区导师，共培养、指导了国内外15名学生（14位中国同学、1位印度同学）进行为期3个月的开源编程活动。Casbin项目已毕业的同学，有的成长为Casbin项目核心维护者、以开源大牛的身份活跃于GitHub，有的毕业后全职加入腾讯微信事业部等互联网头部公司，有的凭借在Casbin社区的出色经历拿到全球顶级投行Morgan Stanley（摩根士丹利）的offer，在工业界和学术界发挥着重要作用。
 
-2021年和2022年，Casbin社区继续参加上述两项活动，Google Summer of Code 和开源软件供应链点亮计划-暑期编程之夏，题目的数量与招纳的学生人数均创下新高。
+2021年和2022年，Casbin社区继续参加上述两项活动，Google Summer of Code 和开源软件供应链点亮计划-开源之夏，题目的数量与招纳的学生人数均创下新高。
 
 活动 | 学生人数 | 最终考核通过人数
 ----|----|----
 GSoC 2020 | 3 | 3
-暑期2020 | 12 | 10
+开源之夏2020 | 12 | 10
 GSoC 2021 | 9 | 9
-暑期2021 | 11 | 11
+开源之夏2021 | 11 | 11
 GSoC 2022 | 12 | 11
-暑期2022 | 6 | 5
+开源之夏2022 | 6 | 5
 
 
-为了在非暑期时间能够继续促进Casbin开源软件的发展，同时挖掘有潜力的学生作为Google Summer of Code 2025和暑期2025（若该赛事仍举行并且Casbin社区获得参加资格）的有力竞争者，Casbin社区将自筹资金，在Google Summer of Code等活动的闭幕期间，开展常态化的“Casbin明日之星预选生计划-Talent for Casbin 2025”活动，针对Casbin社区旗下开源软件的开发与维护提供 mini 项目，并向全国高校学生开放报名。学生可自主选择感兴趣的项目进行申请，并在中选后获得该软件资深维护者（社区导师）亲自指导的机会。
+为了在非暑期时间能够继续促进Casbin开源软件的发展，同时挖掘有潜力的学生作为Google Summer of Code 2025和开源之夏2025（若该赛事仍举行并且Casbin社区获得参加资格）的有力竞争者，Casbin社区将自筹资金，在Google Summer of Code等活动的闭幕期间，开展常态化的“Casbin明日之星预选生计划-Talent for Casbin 2025”活动，针对Casbin社区旗下开源软件的开发与维护提供 mini 项目，并向全国高校学生开放报名。学生可自主选择感兴趣的项目进行申请，并在中选后获得该软件资深维护者（社区导师）亲自指导的机会。
 
 根据项目的难易程度和完成情况，参与者可获取“Casbin明日之星预选生计划-Talent for Casbin 2025”活动奖金和加盖Casbin社区公章的参与（实习）证明。
 
@@ -27,7 +27,7 @@ GSoC 2022 | 12 | 11
 1. Casbin明日之星预选生计划-Talent for Casbin 2025 官网：https://github.com/casbin/Talent2025
 2. Google Summer of Code官网：https://summerofcode.withgoogle.com/
 3. Google Summer of Code中文介绍：https://github.com/gsoc-cn/gsoc-cn 或 https://zhuanlan.zhihu.com/p/27823910 或 https://zhuanlan.zhihu.com/p/27330699
-4. 开源软件供应链点亮计划-暑期活动官网：https://summer.iscas.ac.cn/
+4. 开源软件供应链点亮计划-开源之夏活动官网：https://summer.iscas.ac.cn/
 
 ### 活动的主要参与方有哪些？
 
@@ -370,7 +370,7 @@ Casbin也曾经在国际上进行多次线下宣讲：
 5. 导师联系方式：nomeguy@gmail.com
 6. 合作导师联系方式（选填）：无
 7. 项目产出要求：
-   - 负责日常招募新的开源开发者参与社区的各项活动，如Google Summer of Code，暑期编程之夏、明日之星等等，在活动期间对参与者进行管理
+   - 负责日常招募新的开源开发者参与社区的各项活动，如Google Summer of Code，开源之夏、明日之星等等，在活动期间对参与者进行管理
    - 参与对接本社区与其他厂商、开源社区的商务合作，推进合作进度
    - 撰写社区的技术、推广、合作等文案，维护、贡献社区官方博客（https://casbin.org/blog/ ）、微信公众号等社交媒体账号
 8. 项目技术要求：
